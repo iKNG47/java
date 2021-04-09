@@ -1,0 +1,29 @@
+package firstHomework;
+import java.util.Random;
+
+public class Request1 {
+    public static void main(String[] args) {
+        Random rnd=new Random();
+        int x= rnd.nextInt(10);
+        System.out.println(x);
+        int y= rnd.nextInt(10);
+        System.out.println(y);
+        boolean result;
+        result=x<y;
+        System.out.println(result);
+        x*=2;
+        result=x>y;
+
+        System.out.println(result );
+        x+=3;
+        result=y<x;
+        x/=2;
+        System.out.println(x);
+        System.out.println(result && x<y);
+        x=(x*y)%2;
+        result=(x==0);
+
+        System.out.println(result);
+
+    }
+}
