@@ -11,17 +11,17 @@ public class Request1 {
         int c;
         boolean result;
         result=x<y;
-        System.out.println(result);
+        System.out.println("x<y "+result);
         c=x*2;
         System.out.println(c);
         result=c>y;
-        System.out.println(result );
+        System.out.println("2x>y "+result );
         c=x+3;
         System.out.println(c);
         result=y<c;
         c=x/2;
         System.out.println(c);
-        System.out.println(result && c<y);
+        System.out.println("y<x+3 && x/2<y " +( result && c<y));
         x=(x*y)%2;
         result=(x==0);
 
