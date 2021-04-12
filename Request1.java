@@ -8,18 +8,20 @@ public class Request1 {
         System.out.println(x);
         int y= rnd.nextInt(10);
         System.out.println(y);
+        int c;
         boolean result;
         result=x<y;
         System.out.println(result);
-        x*=2;
-        result=x>y;
-
+        c=x*2;
+        System.out.println(c);
+        result=c>y;
         System.out.println(result );
-        x+=3;
-        result=y<x;
-        x/=2;
-        System.out.println(x);
-        System.out.println(result && x<y);
+        c=x+3;
+        System.out.println(c);
+        result=y<c;
+        c=x/2;
+        System.out.println(c);
+        System.out.println(result && c<y);
         x=(x*y)%2;
         result=(x==0);
 
