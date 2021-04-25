@@ -20,8 +20,7 @@ public class Fruit {
         this.type = type;
     }
     Fruit(double weight, String type){
-        this.weight=weight;
-        this.type=type;
+        this(weight, type);
     }
     public void getInfo(){
         System.out.println("Waga: "+weight+" typ: "+type);
