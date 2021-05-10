@@ -6,13 +6,12 @@ public enum Status {
     SHIPPED("WYSLANE"),
     DELIVERED("DOSTARCZĄNE"),
     CANCELED("ANULOWANE");
-    private String status;
+    public static Order status;
+    private final String status1;
 
-    public String getStatus() {
-        return status;
-    }
+
 
     Status(String status) {
-        this.status = status;
+        this.status1 = status;
     }
 }
