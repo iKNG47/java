@@ -6,7 +6,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         while (true) {
         System.out.println("Wprowadz dowolny text:");
-        String inputUsersText = new String();
+        String inputUsersText;
         inputUsersText = scanner.nextLine();
 
             char firstChar = inputUsersText.charAt(0);
